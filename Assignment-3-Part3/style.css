@@ -3,16 +3,43 @@
 * {
   box-sizing: border-box;
 }
+@font-face {
+  font-family: 'fraunces';
+  src: url(fraunces-italicsoftwonkopszwght.ttf) ;
+}
+@font-face {
+  font-family: 'Aaargh';
+  src: url(Aaargh.ttf) ;
+}
 
+html{
+  font-size: 10px;
+  font-family: fraunces,serif;
+}
+h1,h2{
+  font-family: Aaargh,sans-serif;
+  letter-spacing: 2;
+}
 body {
+  line-height: 1.5;
+  letter-spacing: 1.5;
+  word-spacing: 1.5;
   margin: 0 auto;
   min-width: 1000px;
   max-width: 1400px;
 }
+h1 {
+  font-size: 5rem;
+  text-align: center;
+}
 
+h2 {
+  font-size: 3.2rem;
+}
 /* Layout */
 
 section {
+  text-indent: 20;
   float: left;
   width: 50%;
 }
