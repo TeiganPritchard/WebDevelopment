@@ -1,3 +1,9 @@
+//Name: Teigan Pritchard
+//Filename: main.js
+//Date: 2025/04/03
+//Description: Bouncing balls with evil ball
+
+
 // set up canvas
 
 const canvas = document.querySelector("canvas");
