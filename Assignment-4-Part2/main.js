@@ -1,7 +1,7 @@
 //Name: Teigan Pritchard
 //Filename: main.js
 //Date: 2025/04/03
-//Description: Story name randomizer
+//Description: picture selector
 
 const displayedImage = document.querySelector('.displayed-img');
 const thumbBar = document.querySelector('.thumb-bar');
