@@ -49,10 +49,14 @@ p, li, table {
   line-height: 1.5;
 }
 
-/* || header layout */
+div[class="header"]{
+  margin: 30px;
+  text-align: center;
+  
+}
 
-div[class="nav"], article, footer, .secondary {
-  background-color: green;
+nav, article, footer, .secondary {
+  background-color: rgb(253, 238, 238);
 }
 
 article, footer, .secondary {
@@ -63,7 +67,7 @@ article {
   margin-right: 10px;
 }
 
-div[class="nav"] {
+nav{
   height: 50px;
   background-color: ff80ff;
   display: flex;
@@ -71,20 +75,20 @@ div[class="nav"] {
   margin-bottom: 10px;
 }
 
-div[class="nav"] ul {
+nav ul {
   padding: 0;
   list-style-type: none;
   flex: 2;
   display: flex;
 }
 
-div[class="nav"] li {
+nav li {
   display: inline;
   text-align: center;
   flex: 1;
 }
 
-div[class="nav"] a {
+nav a {
   display: inline-block;
   font-size: 2rem;
   text-transform: uppercase;
@@ -92,7 +96,7 @@ div[class="nav"] a {
   color: black;
 }
 
-div[class="nav"] .search {
+nav .search {
   flex: 1;
   display: flex;
   align-items: center;
